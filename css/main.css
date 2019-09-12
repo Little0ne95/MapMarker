@@ -1,0 +1,76 @@
+option:disabled {
+    background: #e4dcdc;
+}
+
+.buttonDriver {
+    background: #ff8a00;
+    color: white;
+    border: none;
+    padding: 9px 15px;
+    margin-bottom: 10px;
+    min-width: 48%;
+}
+
+.buttonCollection {
+    background: #0084ff;
+    color: white;
+    border: none;
+    padding: 9px 15px;
+    margin-bottom: 10px;
+    min-width: 48%;
+}
+
+.buttonMeetingPoint {
+    background: #5bed6c;
+    color: #3d3a3a;
+    border: none;
+    padding: 9px 15px;
+    margin-bottom: 10px;
+    min-width: 48%;
+}
+
+.buttonExcluded {
+    background: #817675;
+    color: white;
+    border: none;
+    padding: 9px 15px;
+    margin-bottom: 10px;
+    min-width: 48%;
+}
+
+/* Always set the map height explicitly to define the size of the div
+    * element that contains the map. */
+#map {
+    height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div#directions-panel {
+    max-height: 265px;
+    overflow-y: scroll;
+    margin-top: 26px;
+    border: solid #ecded5 1px;
+    background: #fafafa;
+    padding: 10px;
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .map-height-mobile{
+        height: 100vh;
+    }
+}
+
+.alert.alert-danger.selectDriver {
+    margin-top: 7px;
+    padding: 3px;
+    margin-bottom: 0;
+    border: none;
+    display: none;
+}

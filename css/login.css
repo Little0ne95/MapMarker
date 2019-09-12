@@ -1,0 +1,31 @@
+body {
+    background-image: url(../images/loginbackgound.jpg);
+    background-size: inherit;
+    background-repeat: no-repeat;
+    background-color: #888888;
+}
+
+.container {
+    min-height: 100vh;
+}
+
+.card {
+    margin-top: 24vh;
+    border: none;
+    width: 42%;
+}
+
+.card-body {
+    background: #201f1f;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding-bottom: 23px;
+}
+
+div#form-error {
+    margin-top: 71px;
+    padding: 10px 14px;
+}
