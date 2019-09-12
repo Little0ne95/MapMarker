@@ -12,7 +12,7 @@ Config::write('mysql.db.password', '');
 
 
 Config::write('office.location', '');
-Config::write('api.key', 'AIzaSyCOjLre2v1V9ve1tnAw2VOqIBpChsvAonY');
+Config::write('api.key', 'API_KEY');
 
 class Config
 {
